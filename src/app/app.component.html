@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav>
+        <div class="left">
+            <a href="/">Praveen Kumar S</a>
+        </div>
+        <div class="right">
+            <a href="https://github.com/PraveenGoku" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/praveen-kumar17/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="https://leetcode.com/u/praveengoku/" target="_blank" rel="noopener noreferrer">
+                <img width="20" height="20" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png" />
+                <span>Leetcode</span>
+            </a>
+
+            <a href="https://www.codechef.com/users/praveengoku" target="_blank" rel="noopener noreferrer">
+                <img width="25" height="25" src="https://img.icons8.com/color/48/codechef.png" alt="codechef"/>
+                <span>Codechef</span>
+            </a>            
+        </div>
+    </nav>
+        
+    <main>
+        <!-- SECTION 1: Hero-->
+         <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Praveen 👋</h2>
+                <p> I am a FullStack Cloud Developer, Competitive Coder, Competitive Gamer and aspiring content creator.<br/>
+                    Working at Accenture as Advanced App Engineering Analyst. <br/>
+                    <br/> 
+                    Education: B.Tech - NIT Tiruchirapalli.(2024)</p>
+
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#projects">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Projects</span>
+                    </a>
+
+                    <a href="#certification">
+                        <i class="fa-solid fa-certificate"></i>
+                        <span>Certifications</span>
+                    </a>
+
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="/Portfolio pic.webp" alt="Praveen Kumar headshot" >
+            </div>
+         </section>
+
+        <!-- SECTION 2: Skills-->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">These are the skills I've acquired during my coding journey.
+            </div>
+            <div class="cells">
+                <div class="cell">
+                    <img src="/html-logo.webp" alt="html logo">
+                    <span>HTML</span>
+                </div>
+                <div class="cell">
+                    <img src="/css-logo.webp" alt="css logo">
+                    <span>CSS</span>
+                </div>
+                <div class="cell">
+                    <img src="https://img.icons8.com/color/48/java-coffee-cup-logo.png" alt="java-coffee-cup-logo"/>
+                    <span>Java</span>
+                </div>
+                <div class="cell">
+                    <img src="https://img.icons8.com/color/48/spring-logo.png" alt="spring-logo"/>
+                    <span>Spring Boot</span>
+                </div>
+                <div class="cell">
+                    <img src="https://img.icons8.com/color/48/amazon-web-services.png" alt="amazon-web-services"/>
+                    <span>AWS</span>
+                </div>
+                
+            </div>
+        </section>
+        
+        <!-- SECTION 3: Projects-->
+        <section id="projects" class="project-section">
+            <h2>Projects</h2>
+            <div class="group">
+                <div class="person-details">
+                    <img width="100" height="100" src="https://img.icons8.com/glyph-neue/100/laptop-coding.png" alt="laptop-coding"/>
+                    <!-- <p>John Doe</p>
+                    <p>Lorem ipsum dolor sit amet.</p> -->
+                </div>
+                <div class="text">
+                    <h3>REST API – Web Service</h3>
+                    <ul>
+                        <li>Built a REST API web service for a social media application using Spring Boot with which one can 
+                            send API Requests (GET, POST, PUT, DELETE) to get/modify the information of a user or post of a 
+                            user.</li>
+                        <li>It uses MySQL as database and offers authentication support with Spring Security.</li>
+                        <li>Created a dockerfile and deployed into Cloud using AWS Elastic BeanStalk with RDS as Database.</li>
+                    </ul>
+                    <br>
+                    <h3>Todo Management – Web App:</h3>
+                    <ul>
+                        <li>Created a web application using React and Spring Boot with which one can manage their todo-list 
+                            with a target date.</li>
+                        <li>It uses an inbuilt database H2 which was used to Create, Read, Update and Delete (CRUD) our tasks.</li>
+                        <li>It also offers authentication and login support with Spring Security.</li>
+                        <li>Created a dockerfile and deployed into Cloud using AWS Elastic BeanStalk using S3 for frontend.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: Certifications-->
+        <section id="certification" class="certification-section">
+            <h2>Certifications</h2>
+            <div class="group">
+                <div class="certification-details">
+                    <div class="badge1">
+                        <img width="300" height="300" src="/Cloud Practitioner.png" alt="aws badge"/>
+                        <h3>AWS Cloud Practitioner</h3>
+                        <p>(Dec 2023)</p>
+                    </div>
+                    <div class="badge2">
+                        <img width="300" height="300" src="/Solution Architect Associate.png" alt="aws badge"/>
+                        <h3>AWS Solutions Architect Associate</h3>
+                        <p>(Dec 2024)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <!-- SECTION 4:Contact -->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="text">
+                    If this interestes you,
+                    Fill the form to reach out to me!
+                </div>
+                <form>
+                    <label for="name">Name<span>*</span></label>
+                    <input type="text" id="name" required>
+                    
+                    <label for="email">Email<span>*</span></label>
+                    <input type="email" id="email" required>
+                    
+                    <label for="message">message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+                    <!-- <script language="JavaScript">
+                        function confirmBox(){
+                        var yes= confirm("Would you like to proceed to home page")
+                            if(yes == true){
+                             // perform some function like taking the user to another page
+                            }
+                        
+                    }
+                    </script> -->
+                    <button class="button" onclick="geek()">Send Message</button>
+                    <p id="add"></p>
+
+                    <script>
+                        function geek() {
+                            let result = confirm("Press OK to close this option");
+                            if (result === true) {
+                
+                                document.getElementById("add").textContent = 
+                                "Message Sent successfully";
+                                console.log("User clicked OK");
+                            } else {
+                                document.getElementById("add").textContent = 
+                                "Message not Sent";
+                                console.log("User clicked Cancel");
+                            }
+                        }
+                    </script>
+                    
+                    <!-- <div id="popup1" class="overlay">
+                        <div class="popup">
+                            <h2>Sent Succesfull</h2>
+                            <a class="close" href="#">×</a>
+                            <div class="content">
+                                now i'm done so you can close this window.
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <button onclick="geek()">Try it</button>
+
+                    <script>
+                        function geek() {
+                            let result = confirm("Would You like to send message?");
+                            if (result === true) {
+                
+                                document.getElementById("add").textContent = 
+                                "User clicked OK";
+                                console.log("User clicked OK");
+                            } else {
+                                document.getElementById("add").textContent = 
+                                "User clicked Cancel";
+                                console.log("User clicked Cancel");
+                            }
+                        }
+                    </script>    -->
+                    
+
+
+                </form>
+                <!-- <button onclick="geek()">Try it</button>
+
+                <script>
+                    function geek() {
+                        let result = confirm("Would You like to send message?");
+                        if (result === true) {
+            
+                            document.getElementById("add").textContent = 
+                            "User clicked OK";
+                            console.log("User clicked OK");
+                        } else {
+                            document.getElementById("add").textContent = 
+                            "User clicked Cancel";
+                            console.log("User clicked Cancel");
+                        }
+                    }
+                </script> -->
+            </div>
+        </section>  
+        <!--NAVBAR-->
+    <footer>
+        <!-- <div class="left">
+            <a href="/">Praveen Kumar S</a>
+        </div> -->
+        <div class="right">
+            <a href="https://www.instagram.com/praveen.goku/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-square-instagram"></i>
+                <span>&#64;praveen.goku</span>
+            </a>
+
+            <a href="https://www.youtube.com/@praveengokuu" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-youtube"></i>
+                <span>&#64;praveengokuu</span>
+            </a>
+
+            <a href="" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-envelope"></i>
+                <span>&#64;praveenkumarofficialworks&#64;gmail.com</span>
+            </a>
+           
+        </div>
+    </footer>
+    </main>
+</body>
+</html>
